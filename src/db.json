@@ -1,0 +1,39 @@
+{
+  "branches": [
+    {
+      "id": "01JXCR6TYNGPRMTK5E64APMDFA",
+      "name": "İstanbul Merkez",
+      "location": {
+        "latitude": 41.015137,
+        "longitude": 28.97953
+      }
+    }
+  ],
+  "shipments": [
+    {
+      "id": "01JXCR6TYS2JNEBBEWN88Y03Y7",
+      "sender": {
+        "id": "01JXCR6TYQ3MXKEP9765HH4D0R",
+        "name": "Sürat Kargo",
+        "location": {
+          "latitude": 41.0082,
+          "longitude": 28.978
+        }
+      },
+      "receiver": {
+        "id": "01JXCR6TYQGGJGW54NK2BR4SQJ",
+        "name": "İrem Ormancı",
+        "location": {
+          "latitude": 40.9919,
+          "longitude": 29.1246
+        }
+      },
+      "branchId": "01JXCR6TYNGPRMTK5E64APMDFA",
+      "type": "standard",
+      "distanceKm": 12.45,
+      "price": 37.349999999999994,
+      "estimatedDeliveryDate": "2025-06-13T11:04:34.520Z",
+      "status": "created"
+    }
+  ]
+}

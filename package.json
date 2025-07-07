@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ava": "^6.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "geolib": "^3.3.4",
+    "ulid": "^3.0.1"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.test.ts"
+    ],
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "scripts": {
+    "test": "ava"
+  }
+}
